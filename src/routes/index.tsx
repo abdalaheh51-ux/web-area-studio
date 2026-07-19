@@ -35,7 +35,7 @@ const links: LinkItem[] = [
     sublabel: "شاهد أعمالنا ومشاريعنا المميزة",
     href: "https://www.instagram.com/web_erea.2/",
     icon: <Instagram className="h-6 w-6" strokeWidth={2.2} />,
-    accent: "from-pink-500/20 to-purple-500/20",
+    accent: "from-blue-600/20 to-sky-500/20",
   },
 ];
 
