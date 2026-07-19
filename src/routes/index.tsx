@@ -235,9 +235,6 @@ function LinkTree() {
           style={{ animation: "fade-up 0.8s ease-out 1.5s both" }}
         >
           <span>© {new Date().getFullYear()} Web Area — كل الحقوق محفوظة</span>
-          <span className="flex items-center gap-1.5">
-            صُنع بـ <span className="text-red-400">♥</span> في مصر
-          </span>
         </footer>
       </div>
     </main>
