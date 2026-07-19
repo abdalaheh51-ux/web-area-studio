@@ -79,29 +79,34 @@ function LinkTree() {
           {copied ? <Check className="h-5 w-5 text-primary" /> : <Share2 className="h-5 w-5" />}
         </button>
 
-        {/* Logo with pulse ring */}
+        {/* Logo in circle with pulse ring */}
         <div
-          className="relative mt-6 flex h-32 w-32 items-center justify-center rounded-3xl p-3"
+          className="relative mt-6 flex h-32 w-32 items-center justify-center rounded-full p-1.5"
           style={{
-            background: "var(--gradient-surface)",
+            background: "var(--gradient-brand)",
             boxShadow: "var(--shadow-glow)",
             animation: "fade-up 0.6s ease-out",
           }}
         >
           <div
             aria-hidden
-            className="absolute inset-0 rounded-3xl"
+            className="absolute inset-0 rounded-full"
             style={{
               background: "var(--gradient-brand)",
-              opacity: 0.15,
+              opacity: 0.35,
               animation: "pulse-ring 3s ease-out infinite",
             }}
           />
-          <img
-            src={logoAsset.url}
-            alt="Web Area"
-            className="relative h-full w-full object-contain drop-shadow-2xl"
-          />
+          <div
+            className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full"
+            style={{ background: "var(--gradient-surface)" }}
+          >
+            <img
+              src={logoAsset.url}
+              alt="Web Area"
+              className="h-[78%] w-[78%] object-contain drop-shadow-2xl"
+            />
+          </div>
         </div>
 
         {/* Brand name + verified */}
