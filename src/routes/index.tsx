@@ -189,7 +189,7 @@ function LinkTree() {
 
               {/* Icon */}
               <span
-                className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-primary-foreground transition-transform duration-300 group-hover:scale-110"
+                className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-primary-foreground transition-transform duration-300 group-hover:scale-110"
                 style={{ background: "var(--gradient-brand)" }}
               >
                 {link.icon}
