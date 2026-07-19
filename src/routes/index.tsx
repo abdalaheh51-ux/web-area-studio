@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Globe, Facebook, ArrowUpLeft, Share2, Check } from "lucide-react";
 import { useState, type ReactNode } from "react";
-import logoAsset from "@/assets/webarea-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: LinkTree,
@@ -106,7 +105,7 @@ function LinkTree() {
             style={{ background: "var(--gradient-surface)" }}
           >
             <img
-              src={logoAsset.url}
+              src="/logo.png"
               alt="Web Area"
               className="h-[78%] w-[78%] object-contain drop-shadow-2xl"
             />
