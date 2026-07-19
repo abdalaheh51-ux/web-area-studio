@@ -11,6 +11,7 @@ type LinkItem = {
   label: string;
   sublabel: string;
   href: string;
+  target?: "_blank" | "_top";
   icon: ReactNode;
   accent: string;
 };
@@ -26,7 +27,8 @@ const links: LinkItem[] = [
   {
     label: "صفحتنا على فيسبوك",
     sublabel: "تابع آخر مشاريعنا وعروضنا",
-    href: "https://www.facebook.com/WebArea",
+    href: "https://www.facebook.com/WebArea/",
+    target: "_top",
     icon: <Facebook className="h-6 w-6" strokeWidth={2.2} />,
     accent: "from-blue-500/20 to-indigo-500/20",
   },
@@ -163,7 +165,7 @@ function LinkTree() {
             <a
               key={link.href}
               href={link.href}
-              target="_blank"
+              target={link.target ?? "_blank"}
               rel="noopener noreferrer"
               className="group relative flex items-center gap-4 overflow-hidden rounded-2xl border border-border bg-card/70 p-4 text-right backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/50"
               style={{
