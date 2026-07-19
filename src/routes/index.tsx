@@ -114,7 +114,7 @@ function LinkTree() {
             <img
               src="/logo.png"
               alt="Web Area"
-              className="h-[78%] w-[78%] object-contain drop-shadow-2xl"
+              className="h-full w-full rounded-full object-cover drop-shadow-2xl"
             />
           </div>
         </div>
