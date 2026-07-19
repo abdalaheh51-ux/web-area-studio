@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Globe, Facebook, ArrowUpLeft, Share2, Check } from "lucide-react";
+import { Globe, Facebook, Instagram, ArrowUpLeft, Share2, Check } from "lucide-react";
 import { useState, type ReactNode } from "react";
 
 export const Route = createFileRoute("/")({
@@ -29,6 +29,13 @@ const links: LinkItem[] = [
     href: "https://www.facebook.com/WebArea/",
     icon: <Facebook className="h-6 w-6" strokeWidth={2.2} />,
     accent: "from-blue-500/20 to-indigo-500/20",
+  },
+  {
+    label: "انستجرام",
+    sublabel: "شاهد أعمالنا ومشاريعنا المميزة",
+    href: "https://www.instagram.com/web_erea.2/",
+    icon: <Instagram className="h-6 w-6" strokeWidth={2.2} />,
+    accent: "from-pink-500/20 to-purple-500/20",
   },
 ];
 
