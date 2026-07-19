@@ -28,11 +28,13 @@ const links: LinkItem[] = [
     label: "صفحتنا على فيسبوك",
     sublabel: "تابع آخر مشاريعنا وعروضنا",
     href: "https://www.facebook.com/WebArea/",
-    target: "_top",
     icon: <Facebook className="h-6 w-6" strokeWidth={2.2} />,
     accent: "from-blue-500/20 to-indigo-500/20",
   },
 ];
+
+
+
 
 function LinkTree() {
   const [copied, setCopied] = useState(false);
