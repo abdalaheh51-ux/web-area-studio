@@ -31,6 +31,9 @@ const links: LinkItem[] = [
     icon: <Facebook className="h-6 w-6" strokeWidth={2.2} />,
     accent: "from-blue-500/20 to-indigo-500/20",
   },
+];
+
+
 
 
 function LinkTree() {
