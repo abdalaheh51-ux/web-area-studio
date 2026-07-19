@@ -21,21 +21,21 @@ const links: LinkItem[] = [
     sublabel: "webarea.dev — اكتشف خدماتنا وأعمالنا",
     href: "https://web-area-a.vercel.app/",
     icon: <Globe className="h-6 w-6" strokeWidth={2.2} />,
-    accent: "from-cyan-400/20 to-blue-500/20",
+    accent: "from-blue-400/20 to-blue-600/20",
   },
   {
     label: "صفحتنا على فيسبوك",
     sublabel: "تابع آخر مشاريعنا وعروضنا",
     href: "https://www.facebook.com/WebArea/",
     icon: <Facebook className="h-6 w-6" strokeWidth={2.2} />,
-    accent: "from-blue-500/20 to-indigo-500/20",
+    accent: "from-blue-500/20 to-blue-700/20"
   },
   {
     label: "انستجرام",
     sublabel: "شاهد أعمالنا ومشاريعنا المميزة",
     href: "https://www.instagram.com/web_erea.2/",
     icon: <Instagram className="h-6 w-6" strokeWidth={2.2} />,
-    accent: "from-pink-500/20 to-purple-500/20",
+    accent: "from-blue-600/20 to-slate-800/20",
   },
 ];
 
@@ -236,7 +236,7 @@ function LinkTree() {
         >
           <span>© {new Date().getFullYear()} Web Area — كل الحقوق محفوظة</span>
           <span className="flex items-center gap-1.5">
-            صُنع بـ <span className="text-red-400">♥</span> في مصر
+            صُنع بـ <span className="text-blue-400">♥</span> في مصر
           </span>
         </footer>
       </div>
