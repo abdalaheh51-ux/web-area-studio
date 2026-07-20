@@ -35,7 +35,7 @@ const links: LinkItem[] = [
     sublabel: "شاهد أعمالنا ومشاريعنا المميزة",
     href: "https://www.instagram.com/web_erea.2/",
     icon: <Instagram className="h-6 w-6" strokeWidth={2.2} />,
-    accent: "from-blue-600/20 to-slate-800/20",
+    accent: "from-blue-600/20 to-sky-500/20",
   },
 ];
 
@@ -114,7 +114,7 @@ function LinkTree() {
             <img
               src="/logo.png"
               alt="Web Area"
-              className="h-[78%] w-[78%] object-contain drop-shadow-2xl"
+              className="h-full w-full rounded-full object-cover drop-shadow-2xl"
             />
           </div>
         </div>
@@ -189,7 +189,7 @@ function LinkTree() {
 
               {/* Icon */}
               <span
-                className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-primary-foreground transition-transform duration-300 group-hover:scale-110"
+                className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-primary-foreground transition-transform duration-300 group-hover:scale-110"
                 style={{ background: "var(--gradient-brand)" }}
               >
                 {link.icon}
@@ -235,9 +235,7 @@ function LinkTree() {
           style={{ animation: "fade-up 0.8s ease-out 1.5s both" }}
         >
           <span>© {new Date().getFullYear()} Web Area — كل الحقوق محفوظة</span>
-          <span className="flex items-center gap-1.5">
-            صُنع بـ <span className="text-blue-400">♥</span> في مصر
-          </span>
+
         </footer>
       </div>
     </main>
