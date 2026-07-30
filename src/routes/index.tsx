@@ -18,8 +18,8 @@ type LinkItem = {
 const links: LinkItem[] = [
   {
     label: "الموقع الرسمي",
-    sublabel: "webarea.dev — اكتشف خدماتنا وأعمالنا",
-    href: "https://web-area-a.vercel.app/",
+    sublabel: "webarea.me — اكتشف خدماتنا وأعمالنا",
+    href: "https://www.webarea.me/",
     icon: <Globe className="h-6 w-6" strokeWidth={2.2} />,
     accent: "from-blue-400/20 to-blue-600/20",
   },
@@ -215,7 +215,7 @@ function LinkTree() {
 
         {/* CTA */}
         <a
-          href="https://web-area-a.vercel.app/"
+          href="https://www.webarea.me/"
           target="_blank"
           rel="noopener noreferrer"
           className="group mt-6 flex w-full items-center justify-center gap-2 rounded-2xl px-6 py-4 text-sm font-bold text-primary-foreground transition-all duration-300 hover:-translate-y-0.5"
